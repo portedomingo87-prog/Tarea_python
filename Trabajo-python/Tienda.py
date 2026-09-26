@@ -14,7 +14,9 @@ productos = {
     "arroz" : 1500,
     "aceite" : 1600,
     "salami" : 950,
-    "sopita" : 500
+    "sopita" : 500,
+    "huevos" : 150,
+    "pepinos" : 120
 }
 
 #productos disponibres
