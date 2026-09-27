@@ -1,0 +1,42 @@
+Sistema de compra en una tienda
+
+Crea un programa que simule una compra en una tienda. 
+El usuario debe poder ingresar sus datos, seleccionar un producto, 
+calcular el total de su compra y recibir un mensaje según el monto gastado.
+
+Instrucciones que debe cumplir
+
+* El programa debe pedirle al usuario su nombre y su edad.
+* Debe tener un diccionario con al menos 4 productos y sus precios.
+* Debe mostrar los productos disponibles para que el usuario pueda elegir uno.
+* El usuario debe ingresar el nombre del producto que desea comprar y la cantidad.
+* El programa debe verificar si el producto existe en el diccionario. Si no existe, 
+debe mostrar un mensaje de error.
+* Debe calcular el subtotal, el ITBIS (18 %) y el total de la compra.
+* Si el usuario es menor de 18 años, debe mostrar un mensaje indicando que es menor de edad. 
+Si tiene 18 o más, debe mostrar un mensaje indicando que es mayor de edad.
+* Si el total de la compra es mayor o igual a RD$5,000, debe aplicar un descuento del 10 %. 
+En caso contrario, no aplica descuento.
+* Debe mostrar un resumen de la compra con el nombre del cliente, producto, cantidad, subtotal, descuento, 
+ITBIS y total final.
+* Al finalizar, debe mostrar un mensaje de agradecimiento utilizando el nombre del usuario.
+
+Requisitos de aprendizaje
+
+El programa debe utilizar obligatoriamente:
+
+* Variables y tipos de datos: str, int, float y bool.
+* Entrada de datos con input().
+* Diccionarios.
+* Condiciones if, elif y else.
+* Operadores de comparación: ==, !=, >, >=, < y <=.
+* Operadores aritméticos: +, -, , / y *.
+* Cálculos combinados con varias operaciones.
+* Conversión de tipos de datos cuando sea necesario.
+
+Reto adicional: Permite que el usuario ingrese un cupón de descuento. 
+Si el cupón es válido, debe aplicar un descuento adicional. El programa debe 
+indicar si el cupón fue aceptado o rechazado.
+
+No necesita utilizar ciclos, funciones ni clases. La tarea está diseñada para practicar los 
+fundamentos que ya ha aprendido y desarrollar su lógica de programación.
